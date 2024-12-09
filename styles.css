@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px; /* Added padding for better spacing */
+    padding: 0 20px; 
 }
 
 nav ul {
@@ -31,7 +31,7 @@ nav ul {
 
 .nav-bar {
     display: flex;
-    align-items: center; /* Align logo and menu items vertically */
+    align-items: center;
 }
 
 .logo {
@@ -39,16 +39,16 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px; /* Adjusted margin for better spacing */
+    margin: 0 15px; 
 }
 
 .menu {
     display: flex;
-    align-items: center; /* Align menu icons vertically */
+    align-items: center; 
 }
 
 .menu li {
-    margin-left: 20px; /* Adjusted margin for menu items */
+    margin-left: 20px; 
 }
 
 .title {
@@ -65,7 +65,7 @@ nav ul li {
 
 .name-buttons {
     display: flex;
-    margin-top: 20px; /* Added margin for better spacing */
+    margin-top: 20px; 
 }
 
 .play-btn, .info-btn {
@@ -73,7 +73,7 @@ nav ul li {
     align-items: center;
     padding: 4px 13px;
     border-radius: 5px;
-    margin-right: 10px; /* Added spacing between buttons */
+    margin-right: 10px; 
 }
 
 .play-btn {
@@ -103,23 +103,23 @@ nav ul li {
 .foot-bottom {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Center the items vertically */
+    align-items: center;
 }
 
 .middle {
     background-color: rgb(20, 20, 20);
-    padding: 20px 0; /* Add padding to the middle section */
+    padding: 20px 0;
 }
 
 .images {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    flex-wrap: wrap;
 }
 
 .images img {
     width: 210px;
-    margin: 0 10px; /* Adjusted margin for better spacing */
+    margin: 0 10px; 
 }
 
 .topTen .images img,
@@ -144,7 +144,7 @@ footer {
 
 .socials {
     display: flex;
-    justify-content: center; /* Center the social icons */
+    justify-content: center; 
 }
 
 .socials img {
@@ -155,14 +155,14 @@ footer {
     width: 70%;
     margin: auto;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items */
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .artists {
     display: flex;
-    justify-content: space-around; /* Space out artist sections */
-    width: 100%; /* Ensure full width */
+    justify-content: space-around;
+    width: 100%; 
 }
 
 .artists ul li {
@@ -186,38 +186,38 @@ footer {
 .heading {
     display: flex;
     align-items: center;
-    margin: 25px 46px; /* Adjusted margin */
+    margin: 25px 46px;
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
     .logo {
-        width: 30%; /* Increase logo size on smaller screens */
+        width: 30%; 
     }
 
     .title .name {
-        font-size: 50px; /* Reduce title size */
+        font-size: 50px;
     }
 
     .images img {
-        width: 140px; /* Adjust image size for smaller screens */
+        width: 140px; 
     }
 
     .play-btn, .info-btn {
-        padding: 8px 12px; /* Adjust button padding */
+        padding: 8px 12px; 
     }
 
     .artists {
-        flex-direction: column; /* Stack artists vertically */
-        align-items: center; /* Center items */
+        flex-direction: column;
+        align-items: center; 
     }
 
     .bottom {
-        width: 90%; /* Adjust bottom section width */
+        width: 90%; 
     }
 
     nav {
-        flex-direction: column; /* Stack navigation items */
-        align-items: flex-start; /* Align items to the start */
+        flex-direction: column; 
+        align-items: flex-start; 
     }
 }
